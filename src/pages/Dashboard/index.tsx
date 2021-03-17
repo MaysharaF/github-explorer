@@ -1,4 +1,5 @@
 import React from "react";
+import { FiChevronRight } from "react-icons/fi";
 
 import logoImg from "../../assets/logo.svg";
 
@@ -16,7 +17,7 @@ const Dashboard: React.FC = () => {
       </Form>
 
       <Repositories>
-        <a href="">
+        <a href="teste">
           <img
             src="https://avatars.githubusercontent.com/u/43793682?s=460&u=b14dc2c3df027bc38f5cf747427bfe6ddd9875cb&v=4"
             alt="Mayshara Fernandes"
@@ -26,6 +27,36 @@ const Dashboard: React.FC = () => {
             <strong>rocketseat/unform</strong>
             <p>Easy peasy highly scalable ReactJS & React Native forms!</p>
           </div>
+
+          <FiChevronRight size={20} />
+        </a>
+
+        <a href="teste">
+          <img
+            src="https://avatars.githubusercontent.com/u/43793682?s=460&u=b14dc2c3df027bc38f5cf747427bfe6ddd9875cb&v=4"
+            alt="Mayshara Fernandes"
+          />
+
+          <div>
+            <strong>rocketseat/unform</strong>
+            <p>Easy peasy highly scalable ReactJS & React Native forms!</p>
+          </div>
+
+          <FiChevronRight size={20} />
+        </a>
+
+        <a href="teste">
+          <img
+            src="https://avatars.githubusercontent.com/u/43793682?s=460&u=b14dc2c3df027bc38f5cf747427bfe6ddd9875cb&v=4"
+            alt="Mayshara Fernandes"
+          />
+
+          <div>
+            <strong>rocketseat/unform</strong>
+            <p>Easy peasy highly scalable ReactJS & React Native forms!</p>
+          </div>
+
+          <FiChevronRight size={20} />
         </a>
       </Repositories>
     </>
